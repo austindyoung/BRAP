@@ -1,0 +1,124 @@
+#welcome {
+  height: 620px;
+  background: #D8DEE8;
+  opacity: .75;
+  width: 1250px;
+  font-family: Oxygen;
+  font-size: 48px;
+
+  margin: auto;
+  margin-left: 8px;
+  margin-top: 8px;
+
+  border-color: black;
+  border-width: 10px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+
+#about {
+  height: 620px;
+  background: #D8DEE8;
+  opacity: .75;
+  width: 1150px;
+  font-family: Oxygen;
+  font-size: 20px;
+
+  margin: auto;
+  margin-left: 8px;
+  margin-top: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-color: black;
+  border-width: 10px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+
+#instructions {
+  height: 620px;
+  background: #D8DEE8;
+  opacity: .75;
+  width: 1150px;
+  font-family: Oxygen;
+  font-size: 20px;
+
+  margin: auto;
+  margin-left: 8px;
+  margin-top: 8px;
+  padding-right: 50px;
+  padding-left: 50px;
+  border-color: black;
+  border-width: 10px;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  text-align: center;
+}
+
+
+button {
+  cursor: pointer;
+  border: 1px solid;
+  width: 50%;
+  display: block;
+  background: transparent;
+  font-size: 30px;
+  font-family: Oxygen;
+  color: black;
+  padding: 10px 30px 10px 30px;
+  margin: -1px auto;
+
+}
+
+#play-btn:hover {
+  background: #3369E8
+}
+
+
+#about-btn:hover {
+  background: #EEB211
+}
+
+#instructions-btn:hover {
+  background: #D50F25
+}
+
+#observe-btn:hover {
+  background: #009925
+}
+
+.back:hover {
+  background: #6082B6
+}
+
+
+.buttons {
+  margin-top: 72px;
+}
+
+#logo {
+  margin-top: 60px;
+}
+
+#one {
+  float: left;
+  color: blue;
+}
+
+#two {
+
+  float: left;
+  color: yellow;
+}
+
+#three {
+  float: left;
+  color: red;
+}
+
+#four {
+  float: left;
+  color: green;
+}
