@@ -132,6 +132,7 @@
         var ctx = canvasEl.getContext("2d");
         var game = new Asteroids.Game(ctx);
         new Asteroids.GameView(game, ctx).start();
+          game.observeMode(1700, 4);
 
         $(".back").click(function (event) {
           $('#welcome').show();
