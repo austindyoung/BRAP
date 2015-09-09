@@ -17,6 +17,9 @@
   text-align: center;
 }
 
+img {
+  height: 120px;
+}
 
 .observe {
   margin-top: -64px;
@@ -63,6 +66,9 @@
   text-align: center;
 }
 
+.inst {
+  margin-top: -20px;
+}
 
 button {
   cursor: pointer;
