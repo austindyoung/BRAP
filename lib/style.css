@@ -17,6 +17,12 @@
   text-align: center;
 }
 
+
+.observe {
+  margin-top: -64px;
+
+}
+
 #about {
   height: 620px;
   background: #D8DEE8;
@@ -72,8 +78,63 @@ button {
 
 }
 
+
+#size {
+  display: inline-block;
+  margin: 5px;
+  /*margin-top: -10px;*/
+}
+#subtract-size {
+  display: inline-block;
+}
+#add-size {
+  display: inline-block;
+}
+
+.label {
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+}
+.letter {
+  text-align: center;
+  font-family: Oxygen;
+  margin-top: -3px;
+  font-size: 11px;
+}
+
+#num {
+  display: inline-block;
+}
+#subtract-num {
+  display: inline-block;
+}
+#add-num {
+  display: inline-block;
+}
+.add {
+    margin: -5px;
+
+  font-size: 15px;
+  height: 30px;
+  width: 64px;
+  text-align: center;
+  padding-right: 35px;
+}
+
+.subtract {
+  margin: 0;
+  height: 30px;
+  width: 64px;
+  font-size: 15px;
+  padding-right: 35px;
+}
+
+
+
 #play-btn:hover {
-  background: #3369E8
+  background: #3369E8;
+
 }
 
 
