@@ -10,6 +10,7 @@
   </head>
 
   <body>
+    
   <div id="welcome">
     <div id="logo">
       <span style="color:#3369E8">B</span>
@@ -23,6 +24,12 @@
     <button type="button" id="instructions-btn">Instructions</button>
     <button type="button" id="observe-btn">Observe</button>
   </div>
+  </div>
+  
+  <div id="play">
+    <img src="http://i.imgur.com/u5RFgD6.jpg" class="img-responsive wasd">
+    <img src="http://i.imgur.com/3HhHfew.gif" class="img-responsive period">
+    <button type="button" class="back play">BACK</button>
   </div>
 
   <div id="about">
@@ -45,7 +52,7 @@
     <div id="instructions">
         <h1>Instructions</h1>
         <p>
-            You can move with "W", "A", "S", "D" and rotate your bumper clockwise with "."
+              You can move with 'W', 'A', 'S', 'D' and rotate your bumper clockwise with '.'
 <br>
 
 <img src="imgs/example_brap.jpg" class="img-responsive">
@@ -130,6 +137,7 @@
         $("#about").hide();
         $("#instructions").hide();
         $("#oberve").hide();
+        $("#play").hide();
         var canvasEl = document.getElementsByTagName("canvas")[0];
         canvasEl.width = 1500;
         canvasEl.height = 620;
@@ -146,6 +154,7 @@
 
         $("#play-btn").click(function () {
           $('#welcome').hide();
+          $('#play').show();
 
           game.removeAll();
           new Asteroids.GameView(game, ctx).start();
