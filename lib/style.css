@@ -18,8 +18,23 @@
 }
 
 
+
+
 img {
   height: 120px;
+}
+
+.wasd {
+  height: 30px;
+  margin: -7px;
+  margin-right: 20px;
+  margin-left: 3px;
+}
+
+.period {
+    height: 30px;
+  left: 100px;
+  margin: -7px;
 }
 
 
