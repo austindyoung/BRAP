@@ -43,6 +43,12 @@ img {
 
 }
 
+.play {
+  height: 20px;
+  font-size: 17px;
+  padding: 0px;
+}
+
 #about {
   height: 620px;
   background: #D8DEE8;
