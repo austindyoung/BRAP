@@ -1,8 +1,10 @@
 #welcome {
-  height: 620px;
+  height: 100%;
+  /*620px;*/
   background: #D8DEE8;
   opacity: .75;
-  width: 1250px;
+  width: 100%;
+  /*1250px;*/
   font-family: Oxygen;
   font-size: 48px;
 
@@ -40,7 +42,7 @@ img {
 
 .observe {
   margin-top: -64px;
-
+/*height: 20px*/
 }
 
 
@@ -147,7 +149,7 @@ button {
     margin: -5px;
 
   font-size: 15px;
-  height: 30px;
+  height: 20px;
   width: 64px;
   text-align: center;
   padding-right: 35px;
@@ -155,7 +157,7 @@ button {
 
 .subtract {
   margin: 0;
-  height: 30px;
+  height: 20px;
   width: 64px;
   font-size: 15px;
   padding-right: 35px;
@@ -184,6 +186,7 @@ button {
 .back:hover {
   background: #6082B6
 }
+
 
 
 .buttons {
