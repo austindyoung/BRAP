@@ -47,10 +47,12 @@ img {
 
 
 #about {
-  height: 620px;
+  height: 100%;
+  /*620px;*/
   background: #D8DEE8;
   opacity: .75;
-  width: 1150px;
+  width: 100%;
+  /*1150px;*/
   font-family: Oxygen;
   font-size: 20px;
 
@@ -67,10 +69,12 @@ img {
 }
 
 #instructions {
-  height: 620px;
+  height: 100%
+  /*620px;*/
   background: #D8DEE8;
   opacity: .75;
-  width: 1150px;
+  width: 100%;
+  /*1150px;*/
   font-family: Oxygen;
   font-size: 20px;
 
