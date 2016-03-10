@@ -69,7 +69,7 @@ img {
 }
 
 #about p {
-padding: 50px
+padding-right: 75px
 }
 
 #instructions {
@@ -95,7 +95,7 @@ padding: 50px
 }
 
 #instructions p {
-padding: 50px
+padding-right: 75px
 }
 
 .inst {
