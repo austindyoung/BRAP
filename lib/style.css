@@ -59,13 +59,17 @@ img {
   margin: auto;
   margin-left: 8px;
   margin-top: 8px;
-  padding-right: 100px;
+  padding-right: 50px;
   padding-left: 50px;
   border-color: black;
   border-width: 10px;
   position: absolute;
   top: 0; left: 0; bottom: 0; right: 0;
   text-align: center;
+}
+
+#about p {
+padding: 300px
 }
 
 #instructions {
